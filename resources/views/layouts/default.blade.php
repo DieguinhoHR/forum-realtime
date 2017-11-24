@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Document</title>
 
-    <style rel="stylesheet" href="/css/app.css"></style>
+    <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
     <header>
