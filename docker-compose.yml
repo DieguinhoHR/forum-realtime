@@ -1,0 +1,78 @@
+# v2 syntax
+version: '2'
+
+# Named volumes
+volumes:
+  # Redis Data
+  forum-redis-data:
+    driver: local
+
+  # MySQL Data
+  forum-mysql-data:
+    driver: local
+
+services:
+  # MySQL (5.7)
+  mysql:
+    image: ambientum/mysql:5.7
+    container_name: forum-mysql
+    volumes:
+       - forum-mysql-data:/var/lib/mysql
+    ports:
+       - "3306:3306"
+    environment:
+       - MYSQL_ROOT_PASSWORD=secret
+       - MYSQL_DATABASE=forum_laravel
+       - MYSQL_USER=root
+       - MYSQL_PASSWORD=secret
+
+  # Redis
+  cache:
+    image: ambientum/redis:3.2
+    container_name: forum-redis
+    command: --appendonly yes
+    volumes:
+      - forum-redis-data:/data
+    ports:
+      - "6379:6379"
+
+  # PHP (with Caddy)
+  api:
+    image: ambientum/php:7.1-caddy
+    container_name: forum-php
+    volumes:
+      - .:/var/www/app
+    ports:
+      - "80:8080"
+    links:
+      - mysql
+      - cache
+
+  dev:
+    image: ambientum/node:8
+    container_name: forum-vue-dev
+    command: npm run dev
+    volumes:
+      - .:/var/www/app
+    ports:
+      - 8080:8080
+
+  # Testing dist on a "real" webserver
+  production-server:
+    image: nginx:stable-alpine
+    container_name: forum-preview-server
+    volumes:
+      - ./dist:/usr/share/nginx/html
+    ports:
+      - 9090:80
+
+  # Laravel Queues
+  queue:
+    image: ambientum/php:7.0
+    container_name: forum-queue
+    command: php artisan queue:listen
+    volumes:
+      - .:/var/www/app
+    links:
+      - mysql
+      - cache
