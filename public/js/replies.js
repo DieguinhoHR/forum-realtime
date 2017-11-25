@@ -1,6 +1,40 @@
 webpackJsonp([3],{
 
-/***/ 4:
+/***/ 47:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(48);
+
+
+/***/ }),
+
+/***/ 48:
+/***/ (function(module, exports, __webpack_require__) {
+
+
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
+
+window.Vue = __webpack_require__(4);
+
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
+
+Vue.component('replies', __webpack_require__(68));
+
+var app = new Vue({
+  el: '#app'
+});
+
+/***/ }),
+
+/***/ 5:
 /***/ (function(module, exports) {
 
 /* globals __VUE_SSR_CONTEXT__ */
@@ -110,49 +144,15 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ 43:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(44);
-
-
-/***/ }),
-
-/***/ 44:
-/***/ (function(module, exports, __webpack_require__) {
-
-
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
-
-window.Vue = __webpack_require__(3);
-
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-Vue.component('example', __webpack_require__(45));
-
-var app = new Vue({
-  el: '#app'
-});
-
-/***/ }),
-
-/***/ 45:
+/***/ 68:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
-var normalizeComponent = __webpack_require__(4)
+var normalizeComponent = __webpack_require__(5)
 /* script */
-var __vue_script__ = __webpack_require__(46)
+var __vue_script__ = __webpack_require__(69)
 /* template */
-var __vue_template__ = __webpack_require__(47)
+var __vue_template__ = __webpack_require__(70)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -169,7 +169,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources/assets/js/replies/components/Example.vue"
+Component.options.__file = "resources/assets/js/replies/components/Reply.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */
@@ -179,9 +179,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-220f512c", Component.options)
+    hotAPI.createRecord("data-v-483792ea", Component.options)
   } else {
-    hotAPI.reload("data-v-220f512c", Component.options)
+    hotAPI.reload("data-v-483792ea", Component.options)
 ' + '  }
   module.hot.dispose(function (data) {
     disposed = true
@@ -193,7 +193,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 46:
+/***/ 69:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -214,57 +214,126 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
+  props: ['replied', 'reply', 'yourAnswer', 'send']
 });
 
 /***/ }),
 
-/***/ 47:
+/***/ 70:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0, false, false)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-8 col-md-offset-2" }, [
-          _c("div", { staticClass: "panel panel-default" }, [
-            _c("div", { staticClass: "panel-heading" }, [
-              _vm._v("Example Component")
+  return _c("div", [
+    _c("div", { staticClass: "card" }, [
+      _c("div", { staticClass: "card-content" }, [
+        _c("span", { staticClass: "card-title" }, [
+          _vm._v("\n            Diego " + _vm._s(_vm.replied) + "\n        ")
+        ]),
+        _vm._v(" "),
+        _c("blockquote", [
+          _vm._v(
+            "\n            Rerum saepe itaque ea harum nostrum ut perferendis. Id maxime incidunt quae. Ut laborum quas est et eveniet nostrum. Laudantium blanditiis voluptas praesentium excepturi illum omnis reprehenderit voluptates.\n        "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card-content" }, [
+        _c("span", { staticClass: "card-title" }, [
+          _vm._v("\n            Diego " + _vm._s(_vm.replied) + "\n        ")
+        ]),
+        _vm._v(" "),
+        _c("blockquote", [
+          _vm._v(
+            "\n            Rerum saepe itaque ea harum nostrum ut perferendis. Id maxime incidunt quae. Ut laborum quas est et eveniet nostrum. Laudantium blanditiis voluptas praesentium excepturi illum omnis reprehenderit voluptates.\n        "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card-content" }, [
+        _c("span", { staticClass: "card-title" }, [
+          _vm._v("\n            Diego " + _vm._s(_vm.replied) + "\n        ")
+        ]),
+        _vm._v(" "),
+        _c("blockquote", [
+          _vm._v(
+            "\n            Rerum saepe itaque ea harum nostrum ut perferendis. Id maxime incidunt quae. Ut laborum quas est et eveniet nostrum. Laudantium blanditiis voluptas praesentium excepturi illum omnis reprehenderit voluptates.\n        "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card grey lighten-4" }, [
+        _c("div", { staticClass: "card-content" }, [
+          _c("span", { staticClass: "card grey lighten-4" }, [
+            _vm._v("\n                " + _vm._s(_vm.reply) + "\n            ")
+          ]),
+          _vm._v(" "),
+          _c("form", [
+            _c("div", { staticClass: "input-field" }, [
+              _c("textarea", {
+                staticClass: "materialize-textarea",
+                attrs: { rows: "10", placeholder: _vm.yourAnswer }
+              })
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "panel-body" }, [
-              _vm._v(
-                "\n                    I'm an example component!\n                "
-              )
-            ])
+            _c(
+              "button",
+              { staticClass: "btn red accent-2", attrs: { type: "submit" } },
+              [_vm._v(_vm._s(_vm.send))]
+            )
           ])
         ])
       ])
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-220f512c", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-483792ea", module.exports)
   }
 }
 
 /***/ })
 
-},[43]);
+},[47]);
