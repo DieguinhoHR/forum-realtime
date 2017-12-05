@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ThreadsRequest;
 use App\Thread;
+use Auth;
 use Illuminate\Http\Request;
 
 class ThreadController extends Controller
@@ -14,17 +16,10 @@ class ThreadController extends Controller
      */
     public function index()
     {
-        //
-    }
+        $threads = Thread::orderBy('updated_at', 'desc')
+            ->paginate();
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
+        return response()->json($threads);
     }
 
     /**
@@ -33,31 +28,15 @@ class ThreadController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ThreadsRequest $request)
     {
-        //
-    }
+        $thread = new Thread;
+        $thread->title = $request->input('title');
+        $thread->body = $request->input('body');
+        $thread->user_id = Auth::user()->id;
+        $thread->save();
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Thread  $thread
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Thread $thread)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Thread  $thread
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Thread $thread)
-    {
-        //
+        return response()->json(['created' => 'success', 'data' => $thread]);
     }
 
     /**
@@ -67,9 +46,15 @@ class ThreadController extends Controller
      * @param  \App\Thread  $thread
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Thread $thread)
+    public function update(ThreadsRequest $request, Thread $thread)
     {
-        //
+        $this->authorize('update', $thread);
+
+        $thread->title = $request->input('title');
+        $thread->body = $request->input('body');
+        $thread->update();
+
+        return redirect('/threads/' . $thread->id);
     }
 
     /**
