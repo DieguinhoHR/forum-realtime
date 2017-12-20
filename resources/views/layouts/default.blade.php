@@ -21,6 +21,10 @@
         </section>
     </main>
 
+    <div id="loader">
+        <loader />
+    </div>
+
     @include('layouts.default.footer')
     @component('layouts.default.body_scripts')
         @yield('scripts')

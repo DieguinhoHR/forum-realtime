@@ -14,14 +14,21 @@ Route::get('/locale/{locale}', function ($locale) {
     return back();
 });
 
+Route::get('/threads', 'ThreadController@index');
+Route::get('/replies/{id}', 'ReplyController@show');
+
+Route::get('/login/{provider}', 'SocialAuthController@redirect');
+Route::get('/login/{provider}/callback', 'SocialAuthController@callback');
+
 Route::middleware(['auth'])
     ->group(function () {
-        Route::get('/threads', 'ThreadController@index');
         Route::post('/threads', 'ThreadController@store');
         Route::put('/threads/{thread}', 'ThreadController@update');
         Route::get('/threads/{thread}/edit', function (\App\Thread $thread) {
             return view('threads.edit', compact('thread'));
         });
+
+        Route::post('/replies', 'ReplyController@store');
     });
 
 Auth::routes();

@@ -2,17 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b91bb3b-e5c5-4229-bd1e-4141f2d57415" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/threads/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/commons/AxiosLoader.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Reply.php" afterPath="$PROJECT_DIR$/app/Reply.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/js/bootstrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/replies.js" afterPath="$PROJECT_DIR$/public/js/replies.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/threads.js" afterPath="$PROJECT_DIR$/public/js/threads.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/vendor.js" afterPath="$PROJECT_DIR$/public/js/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/replies/components/Reply.vue" afterPath="$PROJECT_DIR$/resources/assets/js/replies/components/Reply.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/threads/components/Threads.vue" afterPath="$PROJECT_DIR$/resources/assets/js/threads/components/Threads.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/pt-br.json" afterPath="$PROJECT_DIR$/resources/lang/pt-br.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/threads/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/default/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/default/header.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/threads/view.blade.php" afterPath="$PROJECT_DIR$/resources/views/threads/view.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +45,51 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="60" column="77" lean-forward="false" selection-start-line="60" selection-start-column="77" selection-end-line="60" selection-end-column="77" />
+              <folding>
+                <marker date="1513797748100" expanded="true" signature="9:26" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="38:47" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="334:350" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="381:395" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="447:490" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="754:768" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="965:990" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="1200:1246" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="1693:1721" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="2179:2213" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="2724:2751" ph="..." />
+                <marker date="1513797748100" expanded="true" signature="2913:2928" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocialAuthController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SocialAuthController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,6 +106,10 @@
       <find>\&lt;div class\=\&quot;parallax\-container\&quot;\&gt;\n\&lt;nav\&gt;\n    \&lt;div class\=\&quot;nav\-wrapper\&quot;\&gt;\n        \&lt;div class\=\&quot;container\&quot;\&gt;\n            \&lt;a href\=\&quot;\&quot; class\=\&quot;brand\-logo\&quot;\&gt;\{\{ __\(\'My Heroes \- Forum\'\) \}\}\&lt;\/a\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n\&lt;\/nav\&gt;\n    \&lt;div class\=\&quot;parallax\&quot;\&gt;\&lt;img src\=\&quot;\&quot; alt\=\&quot;\&quot;\&gt;\&lt;\/div\&gt;\n\&lt;\/div\&gt;\n</find>
       <find>locale</find>
       <find>yourAs</find>
+      <find>\&lt;template\&gt;\n    \&lt;div\&gt;\n    \&lt;div class\=\&quot;card\&quot; v\-for\=\&quot;data in replies\&quot;\&gt;\n        \&lt;div class\=\&quot;card\-content\&quot;\&gt;\n            \&lt;span class\=\&quot;card\-title\&quot;\&gt;\n                \{\{ data\.user\.name \}\} \{\{ replied \}\}\n            \&lt;\/span\&gt;\n            \&lt;blockquote\&gt;\n                \{\{ data\.body \}\}\n            \&lt;\/blockquote\&gt;\n        \&lt;\/div\&gt;\n\n        \&lt;div class\=\&quot;card grey lighten\-4\&quot;\&gt;\n            \&lt;div class\=\&quot;card\-content\&quot;\&gt;\n                \&lt;span class\=\&quot;card grey lighten\-4\&quot;\&gt;\{\{ reply \}\}\&lt;\/span\&gt;\n\n                \&lt;form\&gt;\n                    \&lt;div class\=\&quot;input\-field\&quot;\&gt;\n                        \&lt;textarea rows\=\&quot;10\&quot; class\=\&quot;materialize\-textarea\&quot; \:placeholder\=\&quot;yourAnswer\&quot;\&gt;\n                        \&lt;\/textarea\&gt;\n                    \&lt;\/div\&gt;\n                    \&lt;button type\=\&quot;submit\&quot; class\=\&quot;btn red accent\-2\&quot;\&gt;\{\{ send \}\}\&lt;\/button\&gt;\n                \&lt;\/form\&gt;\n            \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n    \&lt;\/div\&gt;\n\&lt;\/template\&gt;\n\n\&lt;script\&gt;\n    export default \{\n      props\: \[\n        \'replied\'\,\n        \'reply\'\,\n        \'yourAnswer\'\,\n        \'send\'\,\n        \'threadId\'\n      \]\,\n      data \(\) \{\n        return \{\n          replies\: \[\]\,\n          thread_id\: this\.threadId\n        \}\n      \}\,\n      methods\: \{\n        getReplies \(\) \{\n          window\.axios\.get\(\'\/replies\/\' \+ this\.thread_id\)\n            \.then\(\(response\) \=\&gt; this\.replies \= response\.data\)\n        \}\n      \}\,\n      mounted \(\) \{\n        this\.getReplies\(\)\n      \}\n    \}\n\&lt;\/script\&gt;\n</find>
+      <find>respose</find>
+      <find>My Her</find>
+      <find>\nwindow\._ \= require\(\'lodash\'\)\;\n\n\/\*\*\n \* We\'ll load jQuery and the Bootstrap jQuery plugin which provides support\n \* for JavaScript based Bootstrap features such as modals and tabs\. This\n \* code may be modified to fit the specific needs of your application\.\n \*\/\n\ntry \{\n    window\.\$ \= window\.jQuery \= require\(\'jquery\'\)\;\n\n    require\(\'materialize\-css\/dist\/js\/materialize\.js\'\)\;\n    require\(\'\.\/parallax\-header\.js\'\)\;\n\} catch \(e\) \{\}\n\n\/\*\*\n \* We\'ll load the axios HTTP library which allows us to easily issue requests\n \* to our Laravel back\-end\. This library automatically handles sending the\n \* CSRF token as a header based on the value of the \&quot;XSRF\&quot; token cookie\.\n \*\/\n\nwindow\.axios \= require\(\'axios\'\)\;\n\nwindow\.axios\.defaults\.headers\.common\[\'X\-Requested\-With\'\] \= \'XMLHttpRequest\'\;\n\n\/\*\*\n \* Next we will register the CSRF Token as a common header with Axios so that\n \* all outgoing HTTP requests automatically have it attached\. This is just\n \* a simple convenience so we don\'t have to attach every token manually\.\n \*\/\n\nlet token \= document\.head\.querySelector\(\'meta\[name\=\&quot;csrf\-token\&quot;\]\'\)\;\n\nif \(token\) \{\n    window\.axios\.defaults\.headers\.common\[\'X\-CSRF\-TOKEN\'\] \= token\.content\;\n\} else \{\n    console\.error\(\'CSRF token not found\: https\:\/\/laravel\.com\/docs\/csrf\#csrf\-x\-csrf\-token\'\)\;\n\}\n\n\/\*\*\n \* Echo exposes an expressive API for subscribing to channels and listening\n \* for events that are broadcast by Laravel\. Echo and event broadcasting\n \* allows your team to easily build robust real\-time web applications\.\n \*\/\n\nimport Echo from \'laravel\-echo\'\n\nwindow\.Pusher \= require\(\'pusher\-js\'\)\;\n\nwindow\.Echo \= new Echo\(\{\n    broadcaster\: \'pusher\'\,\n    key\: \'5a1d2467d7a4f7e30427\'\,\n    cluster\: \'us2\'\,\n    encrypted\: true\n\}\)\;\n\nimport swal from \'sweetalert2\'\n\n\/\/ é o cara que é executado quando acontece um request ou response\nwindow\.axios\.interceptors\.response\.use\(successCallback\, errorCallback\)\n\nconst successCallback \= \(response\) \=\&gt; \{\n    return response\n\}\n\nconst errorCallback \= \(error\) \=\&gt; \{\n  swal\(\{\n    title\: \'Autenticação\'\,\n    text\: \'Para acessar este recurso você precisa estar autenticado\! Você será redirecionado\'\,\n    type\: \'warning\'\,\n    showCancelButton\: true\,\n    confirmButtonText\: \'OK\!\'\,\n    cancelButtonText\: \'Não\, obrigado\'\,\n  \}\)\.then\(\(result\) \=\&gt; \{\n    if \(result\.value\) \{\n    window\.location \= \'\/login\'\n  \}\n\}\)\n  return response\n\}\n\n\n</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -48,49 +118,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_11_17_232818_create_replies_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_11_17_232309_create_threads_table.php" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/default/body_scripts.blade.php" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/resources/views/layouts/default/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/assets/js/parallax-header.js" />
-        <option value="$PROJECT_DIR$/resources/assets/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/threads/app.js" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
-        <option value="$PROJECT_DIR$/app/Reply.php" />
-        <option value="$PROJECT_DIR$/.env.testing" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/ThreadsTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ExampleTest.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/replies/app.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/default/preloader.blade.php" />
         <option value="$PROJECT_DIR$/resources/lang/pt-br-json" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/replies/components/Reply.vue" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Locale.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/tests/Feature/LocaleTest.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/default/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/threads/components/Threads.vue" />
         <option value="$PROJECT_DIR$/tests/Feature/ThreadTest.php" />
         <option value="$PROJECT_DIR$/resources/lang/pt-br.json" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ThreadsRequest.php" />
         <option value="$PROJECT_DIR$/app/Policies/ThreadPolicy.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/.env.testing" />
+        <option value="$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ReplyTest.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/view.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/ReplyRequest.php" />
+        <option value="$PROJECT_DIR$/config/broadcasting.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/threads/components/Threads.vue" />
+        <option value="$PROJECT_DIR$/app/Events/NewThread.php" />
+        <option value="$PROJECT_DIR$/app/Reply.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
+        <option value="$PROJECT_DIR$/app/Events/NewReply.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/replies/components/Reply.vue" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/default/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/bootstrap.js" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/commons/AxiosLoader.vue" />
+        <option value="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_12_20_181018_create_social_auths_table.php" />
+        <option value="$PROJECT_DIR$/app/SocialAuth.php" />
+        <option value="$PROJECT_DIR$/config/services.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SocialAuthController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
       </list>
     </option>
   </component>
@@ -107,10 +185,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1857" />
-    <option name="height" value="1092" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -127,7 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,25 +228,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum-realtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum-realtime" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Feature" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,7 +268,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="threads" />
+              <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,7 +296,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum-realtime" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum-realtime" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,10 +329,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Policies" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,28 +347,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum-realtime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum-realtime" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Requests" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,7 +374,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,16 +383,16 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-    <property name="SearchEverywhereHistoryKey" value="view&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/view.blade.php&#10;AuthServ&#9;null&#9;null&#10;view.b&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/view.blade.php&#10;Threads.v&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/threads/components/Threads.vue&#10;webp&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;ThreadC&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ThreadController.php&#10;pt-br&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/lang/pt-br.json&#10;web.&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;ThreadTe&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ThreadTest.php&#10;Thre&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ThreadController.php&#10;pt&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/lang/pt-br.json&#10;index.bla&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/index.blade.php&#10;Thread.vu&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/threads/components/Threads.vue&#10;ThreadCont&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ThreadController.php&#10;Threads.vue&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/threads/components/Threads.vue&#10;web.php&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;header.&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/layouts/default/header.blade.php&#10;app.php&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/config/app.php&#10;view.bla&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/view.blade.php&#10;Examp&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ExampleTest.php&#10;Exam&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ExampleTest.php&#10;Repli&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/database/seeds/RepliesTableSeeder.php&#10;web.ph&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;Example&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ExampleTest.php&#10;CreateRe&#9;null&#9;null&#10;ExampleTe&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ExampleTest.php&#10;defau&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/layouts/default.blade.php&#10;index.&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/index.blade.php&#10;header&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/layouts/default/header.blade.php&#10;app.scs&#9;FILE&#9;file:///home/master/Projects/schoolofnet/forum-realtime/resources/assets/sass/app.scss&#10;app.c&#9;FILE&#9;file:///home/master/Projects/schoolofnet/forum-realtime/public/css/app.css&#10;default.&#9;FILE&#9;file:///home/master/Projects/schoolofnet/forum-realtime/resources/views/layouts/default.blade.php&#10;bootstrap.&#9;FILE&#9;file:///home/master/Projects/schoolofnet/forum-realtime/public/js/bootstrap.js&#10;bootstra&#9;null&#9;null&#10;composer.jso&#9;FILE&#9;file:///home/master/Projects/schoolofnet/forum-realtime/composer.json&#10;Users&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="web.php&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;lo&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/auth/login.blade.php&#10;SocialAuth&#9;null&#9;null&#10;.env&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/.env&#10;services.php&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/config/services.php&#10;email.blade&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/auth/passwords/email.blade.php&#10;boots&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/bootstrap.js&#10;header&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/layouts/default/header.blade.php&#10;default&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/layouts/default.blade.php&#10;web.ph&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;ReplyCon&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ReplyController.php&#10;NewRe&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Events/NewReply.php&#10;web.&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;ROUTESÇ&#9;null&#9;null&#10;Replyco&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ReplyController.php&#10;Reply.vu&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/replies/components/Reply.vue&#10;Threads&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/threads/components/Threads.vue&#10;ThreadC&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ThreadController.php&#10;app.php&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/config/app.php&#10;broad&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/config/broadcasting.php&#10;view&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/view.blade.php&#10;ReplyCont&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ReplyController.php&#10;Reply&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Reply.php&#10;REplyCon&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ReplyController.php&#10;web&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;AuthServ&#9;null&#9;null&#10;view.b&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/view.blade.php&#10;Threads.v&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/threads/components/Threads.vue&#10;webp&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/routes/web.php&#10;pt-br&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/lang/pt-br.json&#10;ThreadTe&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ThreadTest.php&#10;Thre&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ThreadController.php&#10;pt&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/lang/pt-br.json&#10;index.bla&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/index.blade.php&#10;Thread.vu&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/threads/components/Threads.vue&#10;ThreadCont&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/app/Http/Controllers/ThreadController.php&#10;Threads.vue&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/assets/js/threads/components/Threads.vue&#10;header.&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/layouts/default/header.blade.php&#10;view.bla&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/view.blade.php&#10;Examp&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ExampleTest.php&#10;Exam&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ExampleTest.php&#10;Repli&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/database/seeds/RepliesTableSeeder.php&#10;Example&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ExampleTest.php&#10;CreateRe&#9;null&#9;null&#10;ExampleTe&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/tests/Feature/ExampleTest.php&#10;defau&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/layouts/default.blade.php&#10;index.&#9;FILE&#9;file:///home/diego/Projects/schoolofnet/forum-realtime/resources/views/threads/index.blade.php&#10;app.scs&#9;FILE&#9;file:///home/master/Projects/schoolofnet/forum-realtime/resources/assets/sass/app.scss&#10;app.c&#9;FILE&#9;file:///home/master/Projects/schoolofnet/forum-realtime/public/css/app.css&#10;default.&#9;FILE&#9;file:///home/master/Projects/schoolofnet/forum-realtime/resources/views/layouts/default.blade.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img" />
-      <recent name="$PROJECT_DIR$/resources/assets/js/threads" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/assets/js/replies/components" />
       <recent name="$PROJECT_DIR$/resources/assets/js/replies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/resources/assets/js/threads" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -440,25 +492,29 @@
       <workItem from="1510961049326" duration="2318000" />
       <workItem from="1511542132876" duration="8856000" />
       <workItem from="1511608995709" duration="16280000" />
-      <workItem from="1512424734817" duration="8866000" />
+      <workItem from="1512424734817" duration="10093000" />
+      <workItem from="1512901535251" duration="1820000" />
+      <workItem from="1513682020758" duration="21760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36320000" />
+    <option name="totallyTimeSpent" value="61127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22056384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22609176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.348643" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33716077" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -466,7 +522,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -481,131 +536,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/js/replies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/threads.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/vendor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21485">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/help.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/threads/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/parallax-header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.testing">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Thread.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -618,7 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,17 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-          <folding>
-            <element signature="e#33#86#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,32 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/replies/components/Reply.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Locale.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,22 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,29 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="61" column="19" lean-forward="true" selection-start-line="58" selection-start-column="11" selection-end-line="61" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <marker date="1512430145276" expanded="true" signature="9:26" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="38:47" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="91:119" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="169:184" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="215:230" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="261:276" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="304:316" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="350:368" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="404:417" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="452:464" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="492:504" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="530:557" ph="..." />
-            <marker date="1512430145276" expanded="true" signature="611:620" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,11 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512425014096" expanded="true" signature="9:22" ph="..." />
-            <marker date="1512425014096" expanded="true" signature="34:43" ph="..." />
-            <marker date="1512425014096" expanded="true" signature="417:436" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -820,29 +668,112 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Policies/ThreadPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.testing">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/RepliesTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="338">
+          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/threads/components/Threads.vue">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ReplyTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="37" column="82" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="37" selection-end-column="82" />
+        <state relative-caret-position="88">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding>
+            <element signature="e#33#86#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/broadcasting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="175" column="8" lean-forward="false" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/NewThread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#30#45#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-781">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#65#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ReplyRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ThreadsRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/threads/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="348">
           <caret line="15" column="104" lean-forward="false" selection-start-line="15" selection-start-column="104" selection-end-line="15" selection-end-column="104" />
           <folding>
             <marker date="1512434365056" expanded="true" signature="9:26" ph="..." />
@@ -862,60 +793,232 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ThreadsRequest.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="263">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1513686816814" expanded="true" signature="9:26" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="38:47" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="91:107" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="215:230" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="408:421" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="432:444" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="504:516" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="598:613" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="638:651" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="682:701" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="725:737" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="766:779" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="805:832" ph="..." />
+            <marker date="1513686816814" expanded="true" signature="886:895" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/NewReply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="29" column="65" lean-forward="false" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+          <folding>
+            <element signature="e#30#44#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/replies/components/Reply.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/threads/components/Threads.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="1152">
+          <caret line="86" column="64" lean-forward="false" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
-            <element signature="e#40#77#0#PHP" expanded="true" />
+            <element signature="e#40#64#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Policies/ThreadPolicy.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="295">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding>
-            <element signature="e#32#47#0#PHP" expanded="true" />
+            <marker date="1512430145276" expanded="true" signature="9:26" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="38:47" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="91:119" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="169:184" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="215:230" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="261:276" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="304:316" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="350:368" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="404:417" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="452:464" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="492:504" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="530:557" ph="..." />
+            <marker date="1512430145276" expanded="true" signature="611:620" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/view.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="556">
+          <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
-            <marker date="1512435541206" expanded="true" signature="9:26" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="38:47" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="91:107" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="215:230" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="390:403" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="414:426" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="486:498" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="580:595" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="620:633" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="664:683" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="707:719" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="745:772" ph="..." />
-            <marker date="1512435541206" expanded="true" signature="826:835" ph="..." />
+            <marker date="1513781495715" expanded="true" signature="305:319" ph="..." />
+            <marker date="1513781495715" expanded="true" signature="446:470" ph="..." />
+            <marker date="1513781495715" expanded="true" signature="544:553" ph="..." />
+            <marker date="1513781495715" expanded="true" signature="653:677" ph="..." />
+            <marker date="1513781495715" expanded="true" signature="694:724" ph="..." />
+            <marker date="1513781495715" expanded="true" signature="741:750" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/commons/AxiosLoader.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        <state relative-caret-position="52">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/default/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <marker date="1513710886524" expanded="true" signature="307:332" ph="..." />
+            <marker date="1513710886524" expanded="true" signature="487:503" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding>
+            <marker date="1513792669187" expanded="true" signature="9:26" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="38:47" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="338:357" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="388:402" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="454:496" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="746:759" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="955:979" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="1189:1232" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="1496:1510" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="1697:1722" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="1932:1978" ph="..." />
+            <marker date="1513792669187" expanded="true" signature="2425:2453" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_12_20_181018_create_social_auths_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/SocialAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="40" column="39" lean-forward="false" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding>
+            <marker date="1513792662943" expanded="true" signature="9:26" ph="..." />
+            <marker date="1513792662943" expanded="true" signature="38:47" ph="..." />
+            <marker date="1513792662943" expanded="true" signature="402:421" ph="..." />
+            <marker date="1513792662943" expanded="true" signature="557:582" ph="..." />
+            <marker date="1513792662943" expanded="true" signature="613:627" ph="..." />
+            <marker date="1513792662943" expanded="true" signature="679:722" ph="..." />
+            <marker date="1513792662943" expanded="true" signature="986:1000" ph="..." />
+            <marker date="1513792662943" expanded="true" signature="1187:1212" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="60" column="77" lean-forward="false" selection-start-line="60" selection-start-column="77" selection-end-line="60" selection-end-column="77" />
+          <folding>
+            <marker date="1513797748100" expanded="true" signature="9:26" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="38:47" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="334:350" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="381:395" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="447:490" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="754:768" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="965:990" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="1200:1246" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="1693:1721" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="2179:2213" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="2724:2751" ph="..." />
+            <marker date="1513797748100" expanded="true" signature="2913:2928" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SocialAuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
